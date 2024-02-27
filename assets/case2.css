@@ -1,3 +1,75 @@
-body{
-    overflow: hidden;
+
+
+header{
+    outline: black solid 5px;
+}
+
+footer {
+    bottom: 0;
+    background-color: dimgray;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    height: 20px;
+    width: 100vw;
+}
+
+nav{
+    text-align: right;
+    padding: 30px;
+    word-spacing: 20px;
+    font-size: 20px;
+}
+
+#about{
+    word-spacing: 0;
+}
+
+#ijse{
+    float: left;
+    height: 80px;
+    border: none;
+}
+
+#leftnav{
+    /*position: absolute;*/
+    left: 0;
+    height: 100vh;
+    width: 22vw;
+    background-color: rebeccapurple;
+}
+
+main{
+    position: relative;
+}
+
+#monkey{
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    width: 77vw;
+}
+
+img{
+    display: inline-block;
+    margin: 0;
+    border: green solid 2px;
+    width: 25vw;
+}
+
+#text{
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    font-size: 24px;
+    font-family: arial;
+    color: white;
+
+}
+
+#para{
+    position: absolute;
+    right: 0;
+    top: 230px;
+    width: 77vw;
 }
