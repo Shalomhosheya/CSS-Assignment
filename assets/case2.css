@@ -1,10 +1,13 @@
-
+body{
+    position: relative;
+}
 
 header{
     outline: black solid 5px;
 }
 
 footer {
+    position: absolute;
     bottom: 0;
     background-color: dimgray;
     color: white;
@@ -34,7 +37,7 @@ nav{
 #leftnav{
     /*position: absolute;*/
     left: 0;
-    height: 100vh;
+    height: 100em;
     width: 22vw;
     background-color: rebeccapurple;
 }
@@ -55,6 +58,8 @@ img{
     margin: 0;
     border: green solid 2px;
     width: 25vw;
+    height: 30vh;
+
 }
 
 #text{
@@ -70,6 +75,6 @@ img{
 #para{
     position: absolute;
     right: 0;
-    top: 230px;
+    top: 32vh;
     width: 77vw;
 }
